@@ -1,0 +1,15 @@
+{
+  "name": "@cutedashboard/doc",
+  "version": "1.0.0",
+  "description": "Documentation of Cute Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Documentation",
+    "Dashboard"
+  ],
+  "author": "Dare Goodness <daregoodness@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cute Dashboard</title>
+    <!-- Line Awesome -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/line-awesome/dist/line-awesome/css/line-awesome.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <ul class="nav-list" role="menubar">
+          <li class="nav-item nav-item-active">
+            <a
+              href="#"
+              class="nav-link nav-link-active"
+              role="menuitem"
+              aria-label="Home"
+            >
+              <span class="las la-home nav-icon" role="presentation"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              role="menuitem"
+              aria-label="Favourite Project"
+            >
+              <span class="las la-star nav-icon" role="presentation"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              role="menuitem"
+              aria-label="Informational Message"
+            >
+              <span class="las la-info nav-icon" role="presentation"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              role="menuitem"
+              aria-label="Collections"
+            >
+              <span
+                class="las la-compress-arrows-alt nav-icon"
+                role="presentation"
+              ></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" role="menuitem" aria-label="Analytics">
+              <span
+                class="las la-chart-bar nav-icon"
+                role="presentation"
+              ></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- start of main container -->
+      <main class="main">
+        <header class="header">
+          <div class="header-wrapper">
+            <form action="" class="search">
+              <button class="search-btn" type="submit" aria-label="Search">
+                <span
+                  class="las la-search search-icon"
+                  role="presentation"
+                ></span>
+              </button>
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Search project"
+              />
+            </form>
+            <div class="profile">
+              <button class="profile-button" type="button">
+                <span class="profile-name">Jessica</span>
+                <img
+                  class="profile-img"
+                  src="./img/avatar2.png"
+                  alt="Profile Picture"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <section class="section">
+          <header class="section-header">
+            <h2 class="section-title">Team</h2>
+            <a href="" class="section-link"> View all </a>
+          </header>
+          <ul class="team">
+            <li class="team-item">
+              <a href="" class="team-link focus-box-shadow">
+                <div class="team-header">
+                  <ul class="photo">
+                    <li class="photo-item">
+                      <span class="photo-substrate">+2</span>
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                  </ul>
+                  <button
+                    class="setting setting-absolute focus-box-shadow"
+                    aria-label="Setting"
+                  >
+                    <span class="las la-braille" role="presentation"></span>
+                  </button>
+                </div>
+                <div class="team-inform">
+                  <p class="team-name">Product Presentation</p>
+                  <time class="date" datetime="2021-04-02T10:00:00"
+                    >02 Jan, 2021</time
+                  >
+                </div>
+              </a>
+            </li>
+
+            <li class="team-item">
+              <a href="" class="team-link focus-box-shadow">
+                <div class="team-header">
+                  <ul class="photo">
+                    <li class="photo-item">
+                      <span class="photo-substrate">+6</span>
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                  </ul>
+                  <button
+                    class="setting setting-absolute focus-box-shadow"
+                    aria-label="Setting"
+                  >
+                    <span class="las la-braille" role="presentation"></span>
+                  </button>
+                </div>
+                <div class="team-inform">
+                  <p class="team-name">New Project</p>
+                  <time class="date" datetime="2021-04-02T10:00:00"
+                    >03 April, 2021</time
+                  >
+                </div>
+              </a>
+            </li>
+
+            <li class="team-item">
+              <a href="" class="team-link focus-box-shadow">
+                <div class="team-header">
+                  <ul class="photo">
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                  </ul>
+                  <button
+                    class="setting setting-absolute focus-box-shadow"
+                    aria-label="Setting"
+                  >
+                    <span class="las la-braille" role="presentation"></span>
+                  </button>
+                </div>
+                <div class="team-inform">
+                  <p class="team-name">Design Development</p>
+                  <time class="date" datetime="2021-04-02T10:00:00"
+                    >04 April, 2021</time
+                  >
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <header class="section-header">
+            <h2 class="section-title">Project</h2>
+            <div class="section-control">
+              <button
+                class="section-button focus-box-shadow"
+                type="button"
+                aria-label="FilterProjects"
+              >
+                <span class="las la-cog"></span>
+              </button>
+              <button
+                class="section-button section-button-painted focus-box-shadow"
+                type="button"
+                aria-label="Add new projects"
+              >
+            <span class="las la-plus"></span></button>
+            </div>
+          </header>
+          <ul class="project">
+            <li class="project-item">
+              <a href="#" class="project-link focus-box-shadow">
+                <div class="project-wrapper">
+                  <div class="project-element project-icon">
+                    <span class="las la-vial icon vikings" role="presentation"></span>
+                  </div>
+                  <div class="project-element project-inform">
+                    <span class="project-inform-name"
+                      >Project Presentation</span
+                    >
+                    
+                  </div>
+                  <div class="project-element project-photo">
+                    <ul class="photo">
+                    <li class="photo-item">
+                      <span class="photo-substrate">+2</span>
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                  </div>
+                  <div class="project-element project-date">
+                     <time class="date" datetime="2021-04-02T10:00:00"
+                    >02 Jan, 2021</time
+                  >
+                  </div>
+                  
+                  <div class="project-element project-status">
+                    <span class="status status-published">Published</span>
+                  </div>
+                  <div class="project-element project-setting">
+                    <button class="setting setting-rotate focus-box-shadow" type="button" araia-label="Setting project">
+                      <span class="las la-braille"></span>
+                    </button>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a href="#" class="project-link focus-box-shadow">
+                <div class="project-wrapper">
+                  <div class="project-element project-icon ">
+                    <span class="las la-briefcase-medical icon rejah" role="presentation"></span>
+                  </div>
+                  <div class="project-element project-inform">
+                    <span class="project-inform-name"
+                      >New Project </span
+                    >
+                    
+                  </div>
+                  <div class="project-element project-photo">
+                    <ul class="photo">
+                    <li class="photo-item">
+                      <span class="photo-substrate">+6</span>
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                  </div>
+                  <div class="project-element project-date">
+                     <time class="date" datetime="2021-04-02T10:00:00"
+                    >02 April, 2021</time
+                  >
+                  </div>
+                  
+                  <div class="project-element project-status">
+                    <span class="status status-in-work">In Work</span>
+                  </div>
+                  <div class="project-element project-setting">
+                    <button class="setting setting-rotate focus-box-shadow" type="button" araia-label="Setting project">
+                      <span class="las la-braille"></span>
+                    </button>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a href="#" class="project-link focus-box-shadow">
+                <div class="project-wrapper">
+                  <div class="project-element project-icon">
+                    <span class="las la-briefcase icon" role="presentation"></span>
+                  </div>
+                  <div class="project-element project-inform">
+                    <span class="project-inform-name"
+                      >Book Cover Design</span
+                    >
+                    
+                  </div>
+                  <div class="project-element project-photo">
+                    <ul class="photo">
+                    
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                  </div>
+                  <div class="project-element project-date">
+                     <time class="date" datetime="2021-04-02T10:00:00"
+                    >03 April, 2021</time
+                  >
+                  </div>
+                  
+                  <div class="project-element project-status">
+                    <span class="status status-published">Published</span>
+                  </div>
+                  <div class="project-element project-setting">
+                    <button class="setting setting-rotate focus-box-shadow" type="button" araia-label="Setting project">
+                      <span class="las la-braille"></span>
+                    </button>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a href="#" class="project-link focus-box-shadow">
+                <div class="project-wrapper">
+                  <div class="project-element project-icon">
+                    <span class="las la-broadcast-tower icon rejah" role="presentation"></span>
+                  </div>
+                  <div class="project-element project-inform">
+                    <span class="project-inform-name"
+                      >Design Development</span
+                    >
+                    
+                  </div>
+                  <div class="project-element project-photo">
+                    <ul class="photo">
+                    
+                    <li class="photo-item">
+                      <img
+                        src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Cat Han Photo"
+                      />
+                    </li>
+                  </div>
+                  <div class="project-element project-date">
+                     <time class="date" datetime="2021-04-02T10:00:00"
+                    >03 April, 2021</time
+                  >
+                  </div>
+                  
+                  <div class="project-element project-status">
+                    <span class="status status-in-work">In Work</span>
+                  </div>
+                  <div class="project-element project-setting">
+                    <button class="setting setting-rotate focus-box-shadow" type="button" araia-label="Setting project">
+                      <span class="las la-braille"></span>
+                    </button>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <!-- /end of main container -->
+      <!-- start of aside container -->
+      <aside class="aside">
+        <section class="section">
+          <div class="aside-control">
+            <button class="aside-button focus-box-shadow" type="button" aria-label="Close profile setting">
+              <span class="las la-arrow-left"></span>
+            </button>
+            <button class="aside-button aside-button-notification focus-box-shadow" type="button" aria-label="You have new notification" role="presentation">
+              <span class="las la-bell"></span>
+            </button>
+          </div>
+          <div class="profile-main">
+            <button class="profile-main-setting focus-box-shadow" type="button" role="presentation">
+              <img src="./img/avatar2.png" alt="Profile Picture" class="profile-main-photo">
+            </button>
+            <h1 class="profile-main-name">Jessica</h1>
+          </div>
+          <ul class="statistics">
+            <li class="statistics-entry">
+              <a href="#" class="statistics-entry-description">Team</a>
+              <span class="statistics-entry-quantity">3</span>
+            </li>
+            <li class="statistics-entry">
+              <a href="#" class="statistics-entry-description">Projects</a>
+              <span class="statistics-entry-quantity">5</span>
+            </li>
+            <li class="statistics-entry">
+              <a href="#" class="statistics-entry-description">Feedback</a>
+              <span class="statistics-entry-quantity">48</span>
+            </li>
+          </ul>
+          <div class="banner">
+            <h3 class="banner-title">Premium access</h3>
+            <p class="banner-descripton">Create teams without limits</p>
+            <button class="banner-button" type="button">Get Premium Access</button>
+          </div>
+        </section>
+      </aside>
+      <!-- /end of aside container -->
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
